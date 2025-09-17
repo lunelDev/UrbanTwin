@@ -74,12 +74,11 @@ dotnet run
 ## 실행 흐름
 
 ```
-[UrbanTwin.Client] → [UrbanTwin.Server] → [UrbanTwin.Unity]
+[UrbanTwin.Server] → [UrbanTwin.Client] → [UrbanTwin.Unity]
 ```
 
 ---
-
-| Unity 클라이언트 UI                         | 실시간 히스토리 차트                                      |
-| -------------------------------------- | ------------------------------------------------ |
-| ![Unity UI Example](docs/unity_ui.png) | ![History Chart Example](docs/history_chart.png) |
+| UrbanTwin.Client (센서 시뮬레이터) | UrbanTwin.Server (TCP 서버) | UrbanTwin.Unity (시각화) |
+|-----------------------------------|-----------------------------|--------------------------|
+| <img src="docs/urbanTwin_Client.png" width="250"/> <br/> 센서 데이터 송신 | <img src="docs/urbanTwinServer.png" width="250"/> <br/> 서버 수신 & 브로드캐스트 | <img src="docs/urbanTwin_unity.png" width="250"/> <br/> Unity UI/차트 시각화 |
 
