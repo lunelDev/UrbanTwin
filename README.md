@@ -77,8 +77,10 @@ dotnet run
 [UrbanTwin.Server] → [UrbanTwin.Client] → [UrbanTwin.Unity]
 ```
 
----
-| UrbanTwin.Client (센서 시뮬레이터) | UrbanTwin.Server (TCP 서버) | UrbanTwin.Unity (시각화) |
-|-----------------------------------|-----------------------------|--------------------------|
-| <img src="docs/urbanTwin_Client.png" width="250"/> <br/> 센서 데이터 송신 | <img src="docs/urbanTwinServer.png" width="250"/> <br/> 서버 수신 & 브로드캐스트 | <img src="docs/urbanTwin_unity.png" width="250"/> <br/> Unity UI/차트 시각화 |
+## 🖼 실행 화면 예시
+
+| UrbanTwin.Client (센서 시뮬레이터)                                                     | UrbanTwin.Server (TCP 서버)                                                         | UrbanTwin.Unity (시각화)                                                                |
+| ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| <img src="docs/urbanTwin_Client.png" width="250"/> <br/> 센서 데이터(온도·교통량·미세먼지) 송신 | <img src="docs/urbanTwinServer.png" width="250"/> <br/> 서버에서 데이터 수신 및 Echo/브로드캐스트 | <img src="docs/urbanTwin_unity.png" width="250"/> <br/> Unity UI 게이지·아이콘·히스토리 차트 시각화 |
+
 
